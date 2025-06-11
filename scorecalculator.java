@@ -13,8 +13,3 @@ public class scorecalculator {
 
 }
 
-int max = scores[0],min = scores[0];
-for(int score:scores){
-    if(score>max)max=score;
-    if(score>min)min=score;
-}
